@@ -4,7 +4,7 @@ def add(x, y):
 
 def subtract(x, y):
     """Subtraction"""
-    return x - y - 1
+    return x - y
 
 def multiply(x, y):
     """Multiplication"""
