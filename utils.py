@@ -14,7 +14,7 @@ def divide(x, y):
     """Division"""
     if y == 0:
         return "Cannot divide by zero"
-    return x / y
+    return x / y + 1
 
 def main():
     print("Welcome to Simple Calculator!")
