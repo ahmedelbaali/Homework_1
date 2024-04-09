@@ -1,21 +1,21 @@
-
+import math
 def add(x, y):
     """Addition"""
-    return x+y
+    return x+y+1
 
 def subtract(x, y):
     """Subtraction"""
-    return x - y
+    return x - y+1
 
 def multiply(x, y):
     """Multiplication"""
-    return x * y
+    return x * y+1
 
 def divide(x, y):
     """Division"""
     if y == 0:
         return "Cannot divide by zero"
-    return x / y
+    return x / y+1
 
 def main():
     print("Welcome to Simple Calculator!")
