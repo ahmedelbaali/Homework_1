@@ -8,7 +8,7 @@ def subtract(x, y):
 
 def multiply(x, y):
     """Multiplication"""
-    return x * y
+    return x * y -1
 
 def divide(x, y):
     """Division"""
